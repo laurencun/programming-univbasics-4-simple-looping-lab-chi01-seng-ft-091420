@@ -14,6 +14,6 @@ end
 
 def output_array (array)
   counter = 0 
-  puts output_array[counter]
+  puts array[counter]
   counter += 1 
 end
