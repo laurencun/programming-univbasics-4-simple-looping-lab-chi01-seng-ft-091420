@@ -16,5 +16,8 @@ def output_array (array)
   counter = 0 
   puts array[counter]
   counter += 1 
-end
 end 
+
+def reteurn_string_array (array)
+  return array |i| each.i
+end
