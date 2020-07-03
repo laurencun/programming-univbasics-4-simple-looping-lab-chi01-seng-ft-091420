@@ -9,6 +9,7 @@ end
 end
 
 def loop_message_n_times (n, message)
+  n = 5
   n.times do 
     puts "#{message}"
 end
