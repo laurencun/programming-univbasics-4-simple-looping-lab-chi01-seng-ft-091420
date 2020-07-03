@@ -18,6 +18,6 @@ def output_array (array)
   counter += 1 
 end 
 
-def reteurn_string_array (array)
+def return_string_array (array)
   return array |i| each.i
 end
