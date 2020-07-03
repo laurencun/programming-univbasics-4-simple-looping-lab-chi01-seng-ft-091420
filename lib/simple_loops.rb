@@ -9,6 +9,7 @@ end
 end
 
 def loop_message_n_times (n, message)
-  n.times puts "#{message}"
+  n = n.to_i
+  n.times  puts "#{message}"
 end
 
