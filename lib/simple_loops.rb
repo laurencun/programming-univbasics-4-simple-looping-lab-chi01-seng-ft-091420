@@ -9,6 +9,6 @@ end
 end
 
 def loop_message_n_times (n, message)
-  n = 4
-  puts "#{message}"
+  n.times do 
+    puts "#{message}"
 end
