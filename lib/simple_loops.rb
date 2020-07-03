@@ -13,3 +13,4 @@ def loop_message_n_times (n, message)
   n.times do 
     puts "#{message}"
 end
+end
