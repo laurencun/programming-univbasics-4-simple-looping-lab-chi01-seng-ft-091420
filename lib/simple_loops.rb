@@ -17,4 +17,3 @@ def output_array (array)
   puts output_array[counter]
   counter += 1 
 end
-end 
