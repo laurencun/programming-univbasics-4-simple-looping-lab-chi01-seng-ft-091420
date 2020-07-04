@@ -8,9 +8,9 @@ def loop_message_five_times (message)
 end
 end
 
-def loop_message_n_times (n, message)
+def loop_message_n_times (limit, message)
   count = 0 
-  while count < n
+  while count < limit 
     puts "#{message}"
     count += 1 
 end
