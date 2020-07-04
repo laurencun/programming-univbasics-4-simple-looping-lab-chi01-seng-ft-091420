@@ -9,7 +9,10 @@ end
 end
 
 def loop_message_n_times (n, message)
-  #{n}.times  puts "#{message}"
+  count = 0 
+  while count < n do  
+    puts "#{message}"
+end
 end
 
 def output_array (array)
